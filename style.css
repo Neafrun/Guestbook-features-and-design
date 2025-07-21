@@ -1,0 +1,169 @@
+        /* 기본 스타일링 */
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        
+        /* 입력 폼 스타일 */
+        .input-form {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+        
+        input[type="text"], input[type="url"], textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+        
+        textarea {
+            height: 80px;
+            resize: vertical;
+        }
+        
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            margin-right: 10px;
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
+        
+        .edit-btn {
+            background-color: #2196F3;
+        }
+        
+        .edit-btn:hover {
+            background-color: #1976D2;
+        }
+        
+        .delete-btn {
+            background-color: #f44336;
+        }
+        
+        .delete-btn:hover {
+            background-color: #d32f2f;
+        }
+        
+        .cancel-btn {
+            background-color: #999;
+        }
+        
+        .cancel-btn:hover {
+            background-color: #777;
+        }
+        
+        /* 방명록 목록 스타일 */
+        .guestbook-list {
+            margin-top: 30px;
+        }
+        
+        .guestbook-item {
+            background-color: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 15px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .author-info {
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .date-info {
+            color: #666;
+            font-size: 12px;
+        }
+        
+        .content {
+            margin: 15px 0;
+            line-height: 1.5;
+            color: #444;
+        }
+        
+        .button-group {
+            text-align: right;
+        }
+        
+        .no-posts {
+            text-align: center;
+            color: #999;
+            font-style: italic;
+            padding: 40px;
+        }
+        
+        /* 이미지 스타일 */
+        .post-image {
+            max-width: 100%;
+            height: auto;
+            max-height: 300px;
+            border-radius: 8px;
+            margin: 15px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        .post-image:hover {
+            transform: scale(1.02);
+        }
+        
+        .image-error {
+            background-color: #f8f8f8;
+            border: 2px dashed #ddd;
+            padding: 20px;
+            text-align: center;
+            color: #999;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
